@@ -14,7 +14,8 @@
     <header>
         <div class="container-logo">
             <figure>
-                <img src="assets/images/wikipedia.png" />
+                <img src="assets/images/wikipedia.png" alt="Logo do site"/>
+                <figurecaption>Logo do Site</figurecaption>
             </figure>
             <div class="titulo">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119 18">
@@ -35,13 +36,14 @@
             </ul>
         </nav>
         <form action="" class="search">
+            <label for="search-input" class="visually-hidden">Pesquisar na Wikipedia</label>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-hidden="true"><!--v-if-->
                 <g>
                     <path d="M12.2 13.6a7 7 0 111.4-1.4l5.4 5.4-1.4 1.4zM3 8a5 5 0 1010 0A5 5 0 003 8"></path>
                 </g>
             </svg>
-            <input type="text" placeholder="Pesquisar na wikipedia">
-            <button>Pesquisar</button>
+            <input type="text" placeholder="Pesquisar na wikipedia" id="search-input" name="search-input" aria-label="Pesquisar na Wikipedia">
+            <button >Pesquisar</button>
         </form>
 
     </header>
@@ -76,6 +78,7 @@
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <figcaption>Mario - Super Mario Bros. 35th Anniversary</figcaption>
                 </figure>
                 <p>Mario é um dos personagens mais icônicos e reconhecíveis do mundo dos videogames, tendo aparecido em
                     mais de 200 jogos desde sua criação. Ele é conhecido por seu chapéu vermelho, bigode característico
